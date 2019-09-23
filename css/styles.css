@@ -1,6 +1,3 @@
-body {
-  text-align: center;
-}
 .task-status-select {
   background-color: white;
   font-size: 14px;
@@ -16,6 +13,7 @@ body {
   background-repeat: no-repeat;
   background-position: 96%;
   text-indent: 10px;
+  background: none;
 }
 .task-status-select:focus {
   outline: none;
@@ -30,6 +28,9 @@ body {
 .task-status-option {
   background-color: white;
 }
+.task-status-option:checked {
+  background-color: red;
+}
 .task-status-text {
-  background-color: green;
+  margin: 10px;
 }
